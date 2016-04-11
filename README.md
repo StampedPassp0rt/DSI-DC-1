@@ -21,13 +21,13 @@
 
 - Outcomes Roadmap (coming soon)
 
-- [Syllabus](https://github.com/ga-students/DSI-DC-1/blob/master/scope-and-sequence.md)
-
 - [Squads](squads.md)
 
 - [Squad meetings](https://github.com/lucywi/DSI-DC1-admin/blob/master/squad%20meetings.md)
 
 - Student Calendar (coming soon)
+
+- [Syllabus](https://github.com/ga-students/DSI-DC-1/blob/master/scope-and-sequence.md)
 
 
 
