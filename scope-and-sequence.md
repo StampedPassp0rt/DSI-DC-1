@@ -1,120 +1,80 @@
 # Scope and Sequence
 
-Subject to change. Download this whole thing in one convenient package using [CurriculumCollector](https://github.com/ga-dc/curriculum-collector).
+Subject to change. 
 
-## Intro to the Web
-  - [Intro to WDI](https://github.com/ga-wdi-lessons/wdi-intro)
-  - [CSS Review](https://github.com/ga-wdi-lessons/css-review)
-    - [HW: Wendy Bite](https://github.com/ga-wdi-exercises/wendy_bite)
-  - [Terminal and the Command Line](https://github.com/ga-wdi-lessons/cli-intro)
-    - [HW: To Oz! (via the Command Line)](https://github.com/ga-wdi-exercises/to_oz)
-  - [Git and Github Intro](https://github.com/ga-wdi-lessons/git-intro)
-    - [HW: Git Haiku](https://github.com/ga-wdi-exercises/haiku)
-  - [Git Branching](https://github.com/ga-wdi-lessons/git-branching)
-  - [Lab: Portfolio Pages](https://github.com/ga-wdi-exercises/portfolio_pages)
-  - [Mini: HTML Review](https://github.com/ga-wdi-lessons/html-review)
-  - [Quiz 1](https://github.com/ga-wdi-quizzes/week-01)
+## Week 1: Math & Programming Fundamentals
+  - Python & NumPy: Demonstrate introductory programming concepts using Python and NumPy as a tool to navigate data sources and collections
+  - Unix: Utilize UNIX commands to navigate file systems and modify files 
+  - git: Maintain a git repository in order to keep track of changes and iterations as your project evolves.
+  - Descriptive Statistics: Define and apply descriptive statistic fundamentals
+  - Intro to plotting and visualization: Practice using plot.ly, iPython notebook and Tableau to plot and visualize data
+  - Project 1: Provided with a dataset of SAT scores from across the United States, students will perform exploratory analysis using NumPy, Matplotlib and Tableau to apply basic summary statistics. 
 
-## Vanilla Javascript
-  - [Pseudocoding and Problem-Solving](https://github.com/ga-wdi-lessons/pseudocode)
-  - [Javascript Intro](https://github.com/ga-wdi-lessons/js-intro)
-    - [HW: Choose Your Own Adventure](https://github.com/ga-wdi-exercises/choose_your_own_adventure_js)
-  - [Objects and Functions](https://github.com/ga-wdi-lessons/js-objects-functions)
-    - [HW: Calculator](https://github.com/ga-wdi-exercises/js-calculator)
-  - [Debugging](https://github.com/ga-wdi-lessons/js-debugging)
-  - [Scope and Context](https://github.com/ga-wdi-lessons/js-scope)
-    - [HW: High Card](https://github.com/ga-wdi-exercises/high-card-js)
-  - [Lab: Hangman](https://github.com/ga-wdi-exercises/hangman-lab)
-  - [Events and Callbacks](https://github.com/ga-wdi-lessons/js-events-callbacks)
-  - [DOM Manipulation](https://github.com/ga-wdi-lessons/js-dom)
-    - [HW: Pixart](https://github.com/ga-wdi-exercises/pixart_js)
-  - [Quiz 2](https://github.com/ga-wdi-quizzes/week-02)
 
-## Project 1
-  - [Project 1](https://github.com/ga-wdi-exercises/project1)
+## Week 2: EDA, Pandas & SciPy
+  - Experiment Design: Plan experimental study design with a well thought out problem statement and data framework
+  - Pandas & Pivot Tables: Use Pandas to read, clean, parse and plot data using functions such as boolean, indexing, math series, joins and others
+  - SciPy: Review statistical testing concepts(p-values, confidence intervals, lamba functions, correlation/causation) with SciPy
+  - Project 2: Using a dirty dataset of Billboard hits, students will use Pandas to munge data, create a problem statement and perform exploratory analysis for a local music publisher. 
 
-## Object-Oriented Javascript
-  - [jQuery Intro](https://github.com/ga-wdi-lessons/js-jquery)
-    - [HW: Final Countdown](https://github.com/ga-wdi-exercises/final-countdown)
-  - [Prototypes and Constructors](https://github.com/ga-wdi-lessons/js-prototypes-constructors)
-    - [HW: JS Geometry](https://github.com/ga-wdi-exercises/js_geometry)
-  - [jQuery Practice](https://github.com/ga-wdi-lessons/jquery-practice)
-  - [Project 1 Refactoring Lab](https://github.com/ga-wdi-lessons/refactoring)
-  - [User Stories and Problem Modeling](https://github.com/ga-wdi-lessons/user-stories-and-problem-modeling)
-    - [HW: ATM](https://github.com/ga-wdi-exercises/atm)
-  - [jQuery Plugins](https://github.com/ga-wdi-lessons/jquery-plugins)
-  - [Code Retreat](https://github.com/ga-wdi-exercises/code_retreat)
-  - [Refactoring](https://github.com/ga-wdi-lessons/refactoring)
-  - [Lab: Tic Tac Toe](https://github.com/ga-wdi-exercises/tic_tac_toe)
-  - [Quiz 3](https://github.com/ga-wdi-quizzes/week-04)
 
-## Raw Ruby
-  - [HW: Try Ruby](https://github.com/ga-wdi-exercises/try-ruby)
-  - [Ruby Intro](https://github.com/ga-wdi-lessons/ruby-intro)
-  - [Enumerables](https://github.com/ga-wdi-lessons/ruby-enumerables)
-    - [HW: High Card](https://github.com/ga-wdi-exercises/high_card)
-  - [OOP: Classes](https://github.com/ga-wdi-lessons/ruby-oop)
-    - [HW: Scrabbler](https://github.com/ga-wdi-exercises/scrabbler)
-  - [OOP: Inheritance](https://github.com/ga-wdi-lessons/ruby-oop-inheritance)
-  - [TDD and RSpec](https://github.com/ga-wdi-lessons/rspec)
-  - [SQL, ERDs, and Domain Modeling](https://github.com/ga-wdi-lessons/sql-intro)
-    - [HW: NBA Stats](https://github.com/ga-wdi-exercises/nba_stats)
-  - [ActiveRecord](https://github.com/ga-wdi-lessons/activerecord-intro)
-    - [HW: Moma DB](https://github.com/ga-wdi-exercises/moma_db)
-  - [Lab: Gladiator](https://github.com/ga-wdi-exercises/gladiator)
-  - [Quiz 4](https://github.com/ga-wdi-quizzes/week-05)
+## Week 3: Linear Regressions, SciKit-Learn, Gradient Descent Regularization & Model Fit
+  - Linear regression, stats models and scikit learn: Use scikit learn ans statsmodels to run linear regression models and evaluate model
+  - Bias-Variance Tradeoff: Understand bias-variance trade-off to evaluate machine learning models
+  - Gradient Descent: Look behind the hood at the math and theory of how gradient descent helps to optimize the loss functions for models
+  - Regularization & Optimization: Learn to apply regularization and optimization when evaluating model fit
+  - Project 3: Given access to state liquor sales data, students will choose between performing market research or conducting tax audits, using Pandas, stats models, and sklearn to transform data, perform linear regression and plot results. 
 
-## Rails
-  - [Intro to MVC, HTTP, REST, and Rails](https://github.com/ga-wdi-lessons/http-mvc-intro-rails/tree/master)
-    - [HW: Scribble](https://github.com/ga-wdi-exercises/scribble)
-  - [Views and Controllers](https://github.com/ga-wdi-lessons/rails-views)
-  - [Models and Migrations](https://github.com/ga-wdi-lessons/rails-activerecord)
-  - [Routing and Resources](https://github.com/ga-wdi-lessons/rails-routing)
-  - [Forms and Helpers](https://github.com/ga-wdi-lessons/forms-and-helpers)
-  - [Sessions, Users, Flash, and Error Handling](https://github.com/ga-wdi-lessons/rails-users-sessions-flash-cookies)
-  - [Model Methods and Validations](https://github.com/ga-wdi-lessons/rails-model-methods-validations)
-  - [Lab: Hogwarts](https://github.com/ga-wdi-exercises/hogwarts_rails)
-  - [Mini: How to Retroactively Add Devise](https://github.com/ga-wdi-lessons/rails-auth)
-  - [Mini: Sinatra Walkthrough](https://github.com/ga-wdi-lessons/sinatra-walkthrough)
-  - [Quiz 5](https://github.com/ga-wdi-quizzes/week-06)
 
-## Project 2
-  - [Project 2](https://github.com/ga-wdi-exercises/project2)
-  - [Deployfest](https://github.com/ga-wdi-lessons/rails-deployment)
-  - [Mini: Many-to-Many Relationships](https://github.com/ga-wdi-lessons/rails-many-to-many)
+## Week 4: Linear Regressions, SciKit-Learn, Gradient Descent Regularization & Model Fit
+  - Web Scraping: Learn to scrape website data using scraping tools
+  - Logistic Regression: Build, evaluate and refine a logistic regression model for a given business case study
+  - NLP: Get introduced to natural language processing through sentiment analysis of scraped website data
+  - Intro to Capstone Project: Get introduced to the final project. Begin to plan your experiment design and look for data sources. 
+  - Project 4: Posing as a federal contractor, students will scrape website data and use Pandas, Statsmodels and NLTK to clean and analyze data, perform logistic regression and evaluate correlation coefficients. 
 
-## Angular and APIs
-  - [AJAX and Consuming APIs](https://github.com/ga-wdi-lessons/api-intro-with-ajax)
-  - [Single-Page Apps, Angular, Directives, and Controllers](https://github.com/ga-wdi-lessons/angular_spa_intro)
-    - [HW: Angular ToDo](https://github.com/ga-wdi-exercises/angular_todo)
-  - [uiRouter](https://github.com/ga-wdi-lessons/angular-routing)
-  - [Factories, Services, and ngResource](https://github.com/ga-wdi-lessons/angular-resources)
-    - [HW: Grumblr](https://github.com/ga-wdi-exercises/grumblr_angular)
-  - [Custom Directives](https://github.com/ga-wdi-lessons/angular-directives)
-  - [Rails Back, Angular Front](https://github.com/ga-wdi-lessons/angular-on-rails)
-  - [Git Workflow and Teams](https://github.com/ga-wdi-lessons/git-teams)
-  - [Mini: Angular Walkthrough](https://github.com/ga-wdi-exercises/shangriangula)
-  - [Lab: WDI Radio](https://github.com/ga-wdi-exercises/wdi_radio_lab)
+## Week 5: SQL, Databases & Classification
+  - SQL & Remote Databases
+  - Get introduced to different types of databases, review SQL commands and practice connecting to and pulling data from a remote AWS database
+  - Feature Selection: Use feature selection to deepen knowledge of model evaluation
+  - kNN & SVMs: Begin to look at classification models through an application of the kNN algorithm and learn how SVMs can simplify the process of analyzing data for supervised learning algorithms. 
+  - Project 5: As a researcher for a disaster response agency, students will pull remote data on Titanic survivors in order to build a local database, run a logistic regression classification model and validate results from test subsets. 
 
-## Project 3
-  - [Project 3](https://github.com/ga-wdi-exercises/project3)
-  - [Quiz 6](https://github.com/ga-wdi-quizzes/week-08)
 
-## Express and MEAN
-  - [Express: Build a Simple App](https://github.com/ga-wdi-lessons/mean-intro)
-    - [HW: Install appropriate software](https://github.com/ga-wdi-lessons/mean-intro/blob/master/setup.md)
-    - [HW: Emergency Compliment](https://github.com/ga-wdi-exercises/compliment-express)
-  - [MongoDB, NoSQL, Mongoose, Schema, and Seeds](https://github.com/ga-wdi-lessons/mongo-intro)
-  - Mongoose CRUD
-    - [HW: Yum](https://github.com/ga-wdi-exercises/yum)
-  - Express, MVC, and How It All Fits Together
-  - Building a MEAN App
-  - [Deploying a MEAN App](https://github.com/ga-wdi-lessons/deploy-MEAN-app)
-  - [Lab: Tunr](https://github.com/ga-wdi-exercises/tunr_rails)
-  - [Auth via Twitter](https://github.com/ga-wdi-lessons/express-oauth)
-  - [Quiz 7](https://github.com/ga-wdi-quizzes/week-10)
+## Week 6: APIs, Trees & Ensemble Methods
+  - JSON & APIs: Learn to pull JSON data from APIs as another potential data source
+  - Ensemble Models: Build and evaluate ensemble models using decision trees, random forests, bagging and boosting
+  - Project 6: Acting as a member of the Netflix data science team, students will collect data from IMDB's API and use SQL in order to construct a random forest model that identifies ratings indicators and correlates these findings with viewer sentiment analysis. 
 
-## Multi-Track
 
-## Project 4
-  - [Project 4](https://github.com/ga-wdi-exercises/project4)
+## Week 7: PCA, Clustering, K-Means & AWS
+  - Clustering: Define clustering and its advantages and disadvantages from classification models
+  - K-Means: Practice building and evaluating a k-means algorithm
+  - PCA: Convert a set of observations or variables into principal components in order to improve predictive analysis
+  - PostgreSQL: Learn to build and maintain your own postgreSQL database
+  - Project 7: Working as an airport operations consultant, students will analyze plane delay data in US airports performing a principle component analysis
+
+
+## Week 8: Bayesian Inference & LDA
+  - Bayesian Methods: Build a linear regression model with bayesian methods
+  - LDA: Refine data using latent dirichlet allocation (LDA)
+  - Naive Bayes: Learn how Naive Bayes can simplify the process of analyzing data for supervised learning algorithms
+  - Capstone Project, Part 1: During the first part of the capstone project, students will select and verify topics and datasets, in order to develop problem statements, goals and success criteria. 
+
+
+## Week 9: Working with Times Series
+  - Time Series & Autocorrelation: Analyze and visualize time series data using Pandas, plot.ly and Tableau.
+  - ARIMA Model: Use the ARIMA model to make predictions with time series data
+  - Capstone Project, Part 2: During the second part of the capstone project, students will create their own database, acquire and clean their data and perform exploratory data analysis using real world tools and processes. 
+
+## Week 10: Intro to Big Data & Spark
+  - Hadoop & MapReduce: Get introduced to the history and use fo Hadoop as well as the advantages and disadvantages of using parallel or distributed systems to store, access and analyze big data
+  - Hive & Spark: Gain an introductory understanding of how Hive interacts with Hadoop and learn about Spark's advantages through big data case studies
+  - Capstone Project, Part 3: During the third part of the capstone project, students will build and tune a predictive model from their data using machine learning algorithms to analyze, classify and plot their data
+  
+
+## Week 11-12: Job Prep & Capstone
+  - Portfolio Development: Work with career coaches to create and polish your portfolio for employers
+  - Interview Prep: Practice data science case studies to prep for job interviews
+  - Advanced Topics TBD
+  - Capstone Project, Part 4 and 5: Students will create a detailed technical model notebook to share with peer audiences while adapting their findings into a visual narrative for non-technical stakeholders
