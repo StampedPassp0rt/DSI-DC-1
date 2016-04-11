@@ -226,7 +226,7 @@ and it returns:
  'Porkchop': pink}
 ```
 
-Let's add a new friend to the phonebook.
+Let's add a new friend to colors.
 In the Python shell type:
 ```bash
 colors['Doug'] = yellow
@@ -246,7 +246,7 @@ and it returns:
  'Porkchop': pink}
 ```
 
-Let's delete a friend to the phonebook.
+Let's delete a friend from colors.
 In the Python shell type:
 ```bash
 del colors['Roger']
@@ -259,10 +259,10 @@ colors
 
 and it returns:
 ```bash
-{'Doug': yellow,
- 'Skeeter': green,
- 'Patty': blue,
- 'Porkchop': pink}
+{'Doug': 'yellow',
+ 'Skeeter': 'green',
+ 'Patty': 'blue',
+ 'Porkchop': 'pink'}
 ```
 
 Let's create a new dictionary with nothing in it to start with:
