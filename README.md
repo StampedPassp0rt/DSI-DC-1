@@ -27,7 +27,7 @@
 
 - [Squad meetings](https://github.com/lucywi/DSI-DC1-admin/blob/master/squad%20meetings.md)
 
-- [Student Calendar](generalassemb.ly_87sguao692ql099aiq2cjkc0ug@group.calendar.google.com)
+- Student Calendar (coming soon)
 
 
 
