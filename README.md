@@ -21,7 +21,7 @@
 
 - Outcomes Roadmap (coming soon)
 
-- Schedule, Scope, and Sequence (coming soon)
+- [Syllabus](https://github.com/ga-students/DSI-DC-1/blob/master/scope-and-sequence.md) (coming soon)
 
 - [Squads](squads.md)
 
