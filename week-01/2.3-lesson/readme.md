@@ -28,8 +28,6 @@ The for loop is used to iterate over the elements of a sequence.
 
 You can use any object (such as strings, arrays, lists, tuples, dict and so on) in a for loop in Python.
 
-The while loop tells the computer to do something as long as a condition is met.
-
 ###While Loops
 
 A while loop consists of a block of code and a condition. The condition is evaluated, and if the condition is true, the code within the block is executed. This repeats until the condition becomes false.
