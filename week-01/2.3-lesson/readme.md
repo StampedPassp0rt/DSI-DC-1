@@ -24,13 +24,27 @@ A device that tells Python to do the same thing over and over again.
 
 ### For Loops
 
+<details>
+<summary>
+For Loop
+</summary>
+```bash
 The for loop is used to iterate over the elements of a sequence.
 
 You can use any object (such as strings, arrays, lists, tuples, dict and so on) in a for loop in Python.
+```
+</details>
 
 ###While Loops
 
+<details>
+<summary>
+While Loop
+</summary>
+```bash
 A while loop consists of a block of code and a condition. The condition is evaluated, and if the condition is true, the code within the block is executed. This repeats until the condition becomes false.
+```
+</details>
 
 [for and while loops](http://www.pythonforbeginners.com/control-flow-2/python-for-and-while-loops)
 [for and while loops](http://www.cyberciti.biz/faq/python-for-loop-examples-statements/)
@@ -86,7 +100,7 @@ for s in shuttles:
 [for loops](http://www.pythonforbeginners.com/control-flow-2/python-for-and-while-loops)
 [for loops](http://anh.cs.luc.edu/python/hands-on/3.1/handsonHtml/loops.html)
 
-Group practice
+###Group practice:
 Work with a partner for 10 minutes and write your own code for a for loop. You may be asked to come up and show your code.
 
 <a name="while loops"></a>
@@ -127,15 +141,14 @@ This while loop will stop when the user types "stop".
 Remember, a while loop runs until the expression is False. The problem is,
 sometimes they don't stop. To avoid this, here are some rules to follow:
 
-1. Make sure that you use while-loops sparingly. Usually a for-loop is better.
-2. Review your while statements and make sure that the boolean test will
+1. Review your while statements and make sure that the boolean test will
    become False at some point.
-3. When in doubt, print out your test variable at the top and bottom of the
+2. When in doubt, print out your test variable at the top and bottom of the
    while-loop to see what it's doing.
 
 [while loops](http://learnpythonthehardway.org/book/ex33.html)
 
-Group Practice
+###Group Practice:
 Work with a partner for 10 minutes and write your own code for a for loop. You may be asked to come up and show your code.
 
 
