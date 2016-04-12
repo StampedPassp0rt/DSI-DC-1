@@ -13,11 +13,11 @@ This is old hat now. But, this isn't meant to embarrass you, this is meant to pr
 
 # General
 
-## If you have an issue for any reason, please slack Nayana and/or myself via direct private message. We can't help, if we don't know. 
+#### If you have an issue for any reason, please slack Nayana and/or myself via direct private message. We can't help, if we don't know. 
 
-## Mutual respect for your classmates: be on time. If you're late it disrupts everyone else's flow too...
+#### Mutual respect for your classmates: be on time. If you're late it disrupts everyone else's flow too...
 
-## Praise in public, constructively critisize in private
+#### Praise in public, constructively critisize in private
 
 
 
