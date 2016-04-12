@@ -4,18 +4,18 @@ Week 1 | Lesson 2.1
 ### LEARNING OBJECTIVES
 *After this lesson, you will be able to:*
 - Write pseudocode
-- Undersand control flow and execute conditional statements
+- Understand control flow and execute conditional statements
 - Define and invoke functions
 
 ### STUDENT PRE-WORK
 *Before this lesson, you should already be able to:*
 - Have a cursory explanation/idea of if/else, if/elif/else, loops, and functions.
 
-## Morning Exercise/Psuedocode
+## Morning Exercise/Pseudocode
 
 <details>
 <summary>
-Psuedocode
+Pseudocode
 </summary>
 ```bash
 An informal but explicit description of the steps we want our computer to follow. It's intended for human reading rather than machine reading. To ensure that the computer skips over the psuedocode when reading your script, mark it
