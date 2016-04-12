@@ -140,9 +140,6 @@ sometimes they don't stop. To avoid this, here are some rules to follow:
 Group Practice
 Work with a partner for 10 minutes and write your own code for a for loop. You may be asked to come up and show your code.
 
-<a name="ind-practice"></a>
-## Independent Practice: Topic (25 minutes)
-- Keep practicing for and while loops
 
 <a name="conclusion"></a>
 ## Conclusion (5 mins)
