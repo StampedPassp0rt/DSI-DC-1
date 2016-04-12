@@ -127,6 +127,7 @@ while a < 10:
 ```
 
 And maybe one more...
+
 In script.py type:
 ```bash
 while True:
