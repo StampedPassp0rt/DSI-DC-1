@@ -12,16 +12,27 @@ Week 1 | Lesson 2.3
   with the topic.
 
 <a name="for and while loops"></a>
-## Introduction: for and while loops (10 mins)
-The for statement is used to iterate over the elements of a sequence. It's
-used when you have a piece of code which you want to repeat n number of times.
-You can use any object (such as strings, arrays, lists, tuples, dict and so on)
-in a for loop in Python.
+## Introduction: Loops (10 mins)
+<details>
+<summary>
+What's a loop?
+</summary>
+```bash
+A device that tells Python to do the same thing over and over again.
+```
+</details>
+
+### For Loops
+
+The for loop is used to iterate over the elements of a sequence.
+
+You can use any object (such as strings, arrays, lists, tuples, dict and so on) in a for loop in Python.
 
 The while loop tells the computer to do something as long as a condition is met.
-A while loop consists of a block of code and a condition. The condition
-is evaluated, and if the condition is true, the code within the
-block is executed. This repeats until the condition becomes false.
+
+###While Loops
+
+A while loop consists of a block of code and a condition. The condition is evaluated, and if the condition is true, the code within the block is executed. This repeats until the condition becomes false.
 
 [for and while loops](http://www.pythonforbeginners.com/control-flow-2/python-for-and-while-loops)
 [for and while loops](http://www.cyberciti.biz/faq/python-for-loop-examples-statements/)
@@ -29,8 +40,6 @@ block is executed. This repeats until the condition becomes false.
 
 <a name="for loops"></a>
 ## Demo / Codealong: for loops (25 mins)
-
-> Instructor Note: [demo code](https://github.com/generalassembly-studio/dsi-course-materials/blob/master/curriculum/04-lessons/week-01/2.3-lesson/code/w1-2.3-demo.ipynb)
 
 In script.py:
 ```bash
@@ -79,7 +88,8 @@ for s in shuttles:
 [for loops](http://www.pythonforbeginners.com/control-flow-2/python-for-and-while-loops)
 [for loops](http://anh.cs.luc.edu/python/hands-on/3.1/handsonHtml/loops.html)
 
-Group practice (10 minutes):
+Group practice
+Work with a partner for 10 minutes and write your own code for a for loop. You may be asked to come up and show your code.
 
 <a name="while loops"></a>
 ## Demo / Codealong: while loops (25 mins)
@@ -127,9 +137,8 @@ sometimes they don't stop. To avoid this, here are some rules to follow:
 
 [while loops](http://learnpythonthehardway.org/book/ex33.html)
 
-Group Practice: 10 minutes
-Now, try creating a few while loops on your own.
-
+Group Practice
+Work with a partner for 10 minutes and write your own code for a for loop. You may be asked to come up and show your code.
 
 <a name="ind-practice"></a>
 ## Independent Practice: Topic (25 minutes)
