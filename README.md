@@ -19,13 +19,13 @@
 
 - [Onboarding Tasks](https://github.com/lucywi/DSI-DC1-admin/blob/master/DSI%20Onboarding%20Tasks)
 
-- Outcomes Roadmap (coming soon)
+- [Outcomes Roadmap](https://docs.google.com/document/d/1XRnI9f6aPMSLKTJbAKZnjtZYn-8MkJXCH6qvjKtypn8/edit)
 
 - [Squads](squads.md)
 
 - [Squad meetings](https://github.com/lucywi/DSI-DC1-admin/blob/master/squad%20meetings.md)
 
-- Student Calendar (coming soon)
+- [Student Calendar](https://calendar.google.com/calendar/embed?src=62nnrr5smkp0m0r2hr06q35vq4%40group.calendar.google.com&ctz=America/New_York)
 
 - [Syllabus](https://github.com/ga-students/DSI-DC-1/blob/master/scope-and-sequence.md)
 

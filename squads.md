@@ -1,23 +1,25 @@
 # Squads
 
 ## Lucy
-- Adam
+- Adam S. 
 - Ameet
 - Caitlin
 - Johnathon
 - Kai
 - Nicole
 - Rebecca
+- Rowland
 - Seth
 - Terry 
 
 ## Nayana
+- Adam A. 
 - Alex
 - Arthur
 - Brian
 - Bruk
 - Cody
-- Hallie
+- Haley
 - Jesse
 - John
 - Michael
