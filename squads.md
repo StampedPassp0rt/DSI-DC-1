@@ -1,7 +1,7 @@
 # Squads
 
 ## Lucy
-- Adam
+- Adam S. 
 - Ameet
 - Caitlin
 - Johnathon
@@ -12,6 +12,7 @@
 - Terry 
 
 ## Nayana
+- Adam A. 
 - Alex
 - Arthur
 - Brian
