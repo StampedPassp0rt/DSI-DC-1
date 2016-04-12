@@ -9,7 +9,7 @@ Week 1 | Lesson 2.1
 
 ### STUDENT PRE-WORK
 *Before this lesson, you should already be able to:*
-- Have a cursory explanation/idea of if/else, if/elif/else, loops, and functions.
+- Have a cursory explanation/idea of if/else, if/elif/else, and functions.
 
 ## Morning Exercise/Pseudocode
 
