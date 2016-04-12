@@ -8,6 +8,7 @@
 - Kai
 - Nicole
 - Rebecca
+- Rowland
 - Seth
 - Terry 
 
