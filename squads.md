@@ -17,7 +17,7 @@
 - Brian
 - Bruk
 - Cody
-- Hallie
+- Haley
 - Jesse
 - John
 - Michael
