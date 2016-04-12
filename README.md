@@ -25,7 +25,7 @@
 
 - [Squad meetings](https://github.com/lucywi/DSI-DC1-admin/blob/master/squad%20meetings.md)
 
-- Student Calendar (coming soon)
+- [Student Calendar](https://calendar.google.com/calendar/embed?src=62nnrr5smkp0m0r2hr06q35vq4%40group.calendar.google.com&ctz=America/New_York)
 
 - [Syllabus](https://github.com/ga-students/DSI-DC-1/blob/master/scope-and-sequence.md)
 
