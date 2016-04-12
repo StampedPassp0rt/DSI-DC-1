@@ -1,38 +1,50 @@
 # ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) Intro to Python 3
-Week 1 | Lesson 1.4
+Week 1 | Lesson 2.1
 
 ### LEARNING OBJECTIVES
 *After this lesson, you will be able to:*
-- Explain if/else and if/elif/else
-- Explain for loop
-- Demonstrate how to define functions
+- Write pseudocode
+- Undersand control flow and execute conditional statements
+- Define and invoke functions
 
 ### STUDENT PRE-WORK
 *Before this lesson, you should already be able to:*
 - Have a cursory explanation/idea of if/else, if/elif/else, loops, and functions.
 
-### LESSON GUIDE
-| TIMING  | TYPE  | TOPIC  |
-|:-:|---|---|
-| 10 min  | [Introduction](#introduction)   | Control Flow  |
-| 15 min  | [Demo](#demo)  | if, if/else  |
-| 15 min  | [Demo](#demo)  | if/elif/else  |
-| 15 min  | [Demo](#demo)  | loops  |
-| 15 min  | [Demo](#demo)  | functions  |
-| 15 min  | [Independent Practice](#ind-practice)  
-| 5 min  | [Conclusion](#conclusion)
----
+## Morning Exercise/Psuedocode
 
-<a name="Control Flow"></a>
-## Introduction: Topic (10 mins)
+<details>
+<summary>
+Psuedocode
+</summary>
+```bash
+An informal but explicit description of the steps we want our computer to follow. It's intended for human reading rather than machine reading. To ensure that the computer skips over the psuedocode when reading your script, mark it
+as a comment. In Python, a comment is designated by the # sign.
+```
+</details>
 
-It is very important to control program execution because in real situations are full of conditions and if you want your program to mimic the real world you need to transform those real world situations into your program . For this, you need to control the execution of your program statements. Controlling the program execution sequence is commonly known as control flow.
+Now pretend I'm a computer, help me make a peanut butter and jelly sandwich. White table the instructions for me.
+
+
+## Control Flow: Topic (10 mins)
+
+So far, we've used Python to give our computer a sequence of instructions to follow one after another. But it's often
+the case that the flow of a program will need to be altered to accommodate a particular situation. Here's where the concept of control flow comes into play.
+
+<details>
+<summary>
+Control flow
+</summary>
+```bash
+Statements that enable a program to execute different sequences of instructions based on the case at hand. This essentially allows the program to "choose" an appropriate course of action.
+```
+</details>
 
 [control flow](http://www.codeproject.com/Articles/663666/Python-Basics-Understanding-The-Flow-Control-State)
 
 
 <a name="if, if/else"></a>
-## Demo / Codealong / Guided Practice: if, if/else (15 mins)
+## Demo if, if/else (15 mins)
 The general Python syntax for a simple if statement is:
 ```bash
         if condition :
@@ -43,33 +55,44 @@ The general Python syntax for a simple if statement is:
 If the condition is true, then do the indented statements. If the condition
 is not true, then skip the indented statements.
 
-> Instructor Note: code also in [demo code folder](https://github.com/generalassembly-studio/dsi-course-materials/blob/Week-1-Lesson-1.4/curriculum/04-lessons/week-01/1.4-lesson/code/Week%201%20Lesson%201.4%20%20demo%20code.ipynb)
+So far, we've been working in the Python shell. Now, let's make a Python script in our text editor. Create a new file in Atom and call it script.py. The 'py' file extension is how you let
+your computer know that it's reading a Python script. You can run it in the terminal by typing python script.py
 
-In Jupyter notebook type:
 ```bash
 weight = float(input("How many pounds does your suitcase weigh? "))
 if weight > 50:
         print("There is a $25 charge for luggage that heavy.")
 print("Thank you for your business.")
 ```
+FYI: Float and input are built-in Python functions. Here's a list of more: https://docs.python.org/2/library/functions.html#built-in-funcs
 
-then type:
+In script.py type:
 ```bash
 43
 ```
-
-and it returns:
+<details>
+<summary>
+and it returns
+</summary>
 ```bash
 Thank you for your business.
 ```
+</details>
 
-Do it again, but this time put in a number > 50.
 
-and it returns:
+Now type:
+```bash
+75
+```
+<details>
+<summary>
+and it returns
+</summary>
 ```bash
 There is a $25 charge for luggage that heavy.
 Thank you for your business.
 ```
+</details>
 
 
 The general Python if-else syntax is
@@ -80,39 +103,28 @@ The general Python if-else syntax is
             indentedStatementBlockForFalseCondition
 
 These statement blocks can have any number of statements, and can include
-about any kind of statement.
+about any kind of statement. The else is executed ONLY after the computer has determined that the first condition
+wasn't met.
 
-In Jupyter notebook type:
+In script.py type:
 ```bash
-temperature = float(input('What is the temperature? '))
+age = float(input('How old are you? '))
 ```
-
-Input a temp.
 
 then type:
 ```bash
-if temperature > 70:
-    print('Wear shorts.')
+if age >= 21:
+    print('Have a beer with me at the GA Happy Hour, my friend')
 else:
-    print('Wear long pants.')
-print('Get some exercise outside.')
+    print('I think we have some juice for you')
+print("You're never too young or too old to learn data science")
 ```
-The middle four lines are an if-else statement. There are two indented
-blocks: One, like in the simple if statement, comes right after the
-if heading and is executed when the condition in the if heading is true.
-In the if-else form this is followed by an else: line, followed by
-another indented block that is only executed when the original condition is false.
-In an if-else statement exactly one of two possible indented blocks is executed.
-
-Play around inputting numbers that are < 70 or > 70.
 
 [control flow statements](http://anh.cs.luc.edu/python/hands-on/3.1/handsonHtml/ifstatements.html)
 
-**Check**: What is the general syntax for an if statement? an if/else?
-
 
 <a name="if/elif/else"></a>
-## Demo / Codealong / Guided Practice: if/elif/else (15 mins)
+## Demo: if/elif/else (15 mins)
 The syntax for an if-elif-else statement is indicated in general below:
 
         if condition1 :
@@ -126,7 +138,7 @@ The syntax for an if-elif-else statement is indicated in general below:
         else:
             indentedStatementBlockForEachConditionFalse
 
-In Jupyter notebook type:
+In script.py type:
 ```bash
 x = int(raw_input("Please enter an integer: "))
 ```
@@ -136,8 +148,7 @@ Type in an integer.
 then type:
 ```bash
 if x < 0:
-    x = 0
-    print 'Negative changed to zero'
+    print 'Negative'
 elif x == 0:
     print 'Zero'
 elif x == 1:
@@ -150,50 +161,33 @@ of elif lines, each followed by an indented block. With this construction exactl
 one of the indented blocks is executed. It is the one corresponding to the first
 True condition.
 
+Note: Check out comparison operators here: http://www.tutorialspoint.com/python/python_basic_operators.htm
+
 [control flow statements](http://anh.cs.luc.edu/python/hands-on/3.1/handsonHtml/ifstatements.html)
 
-**Check**: How many indented blocks in an if/elif/else are executed?
-
-
-<a name="loops"></a>
-## Demo / Codealong / Guided Practice: loops (15 mins)
-
-Python’s for statement iterates over the items of any sequence (a list or a string), in the order that they appear in the sequence.
-
-The syntax for loop is indicated in general below:
-
-    for iterator_name in iterating_sequence:
-        …statements…
-
-In Jupyter notebook type:
-```bash
-words = ['cat', 'window', 'defenestrate']
-for w in words:
-    print w, len(w)
-```
-
-and it returns:
-```bash
-cat 3
-window 6
-defenestrate 12
-```
-
-Knowledge check: what's happening here? Explain how the code returns what it does.
-
-[for statements](https://docs.python.org/2/tutorial/controlflow.html#if-statements)
-[for loop](http://www.codeproject.com/Articles/663666/Python-Basics-Understanding-The-Flow-Control-State)
-
-
 <a name="functions"></a>
-## Demo / Codealong / Guided Practice: functions (15 mins)
+## Demo: functions (15 mins)
+<details>
+<summary>
+What's a function?
+</summary>
+```bash
+Think of a function as a small program inside a program. The basic idea is that we write a sequence of statements and then give that sequence a name.
+```
+</details>
 
-- You can define functions to provide the required functionality. Here are simple rules to define a function in Python.
-    - Function blocks begin with the keyword def followed by the function name and parentheses ( ( ) ).
-    - Any input parameters or arguments should be placed within these parentheses. You can also define parameters inside            these parentheses.
-    - The first statement of a function can be an optional statement - the documentation string of the function or                  docstring.
-    - The code block within every function starts with a colon (:) and is indented.
-    - The statement return [expression] exits a function, optionally passing back an expression to the caller. A return             statement with no arguments is the same as return None.
+You can define functions to provide the required functionality. Here are simple rules to define a function in Python.
+
+Function blocks begin with the keyword def followed by the function name and parentheses ( ( ) ).
+
+Any input parameters or arguments should be placed within these parentheses. You can also define parameters inside these parentheses.
+
+The first statement of a function can be an optional statement - the documentation string of the function or docstring.
+
+The code block within every function starts with a colon (:) and is indented.
+
+The statement return [expression] exits a function, optionally passing back an expression to the caller. A return statement with no arguments is the same as return None.
+
 
 The syntax for a function is indicated in general below:
 ```bash
@@ -204,7 +198,7 @@ def functionname( parameters ):
 ```
 
 Let's create a function called printme
-In Jupyter notebook type:
+In script.py type:
 ```bash
 def printme( str ):
    "This prints a passed string into this function"
@@ -212,36 +206,28 @@ def printme( str ):
    return
 ```
 
-now, let's call the function:
+But it's not enough to define a function. Now, we need to 'call' it, in order for the function to be invoked:
 ```bash
-printme("Beltway traffic makes my head hurt.")
-printme("It looks like a parking lot out there!")
+printme("hello, it's me")
 ```
 
 and it returns:
 ```bash
-Beltway traffic makes my head hurt.
-It looks like a parking lot out there!
+hello, it's me
 ```
 
 [defining a function](http://www.tutorialspoint.com/python/python_functions.htm)
 
-**Check** What’s the general syntax for a function? Why do you think functions might be useful?
-
 <a name="ind-practice"></a>
-## Independent Practice: Topic (10 minutes)
+## Pair Practice: Topic (10 minutes)
 - What is the general syntax/format of:  
         -  if/else?
         -  if/elif/else?
-        -  loop?
         - function?
-- Define and explain each to a partner
+- Define, white table and explain each to a partner
 
 <a name="conclusion"></a>
 ## Conclusion (5 mins)
-Today we learned about if/else, if/elif/else, loops, and functions. Practice coding each until you
+Today we learned about if/else, if/elif/else and functions. Practice coding each until you
 feel comfortable. If you understand basic control flow concepts, you're on your way to writing
 fantastic executable programs!
-
-## Bonus Challenges
-Once you've mastered the basics, further your understanding of Python by attempting "[Alternate Code Challenges 3](code/starter-code/Bonus%20Code%20Challenges%203%20Starter%20Code%20-%20Week%201%20Lesson%202.2.ipynb#)", involving recursive functions.
