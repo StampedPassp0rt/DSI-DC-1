@@ -19,7 +19,7 @@
 
 - [Onboarding Tasks](https://github.com/lucywi/DSI-DC1-admin/blob/master/DSI%20Onboarding%20Tasks)
 
-- Outcomes Roadmap (coming soon)
+- [Outcomes Roadmap](https://docs.google.com/document/d/1XRnI9f6aPMSLKTJbAKZnjtZYn-8MkJXCH6qvjKtypn8/edit)
 
 - [Squads](squads.md)
 
