@@ -28,9 +28,8 @@ Over the last few days we've gone over quite a bit.
 - Jupyter Notebook
 
 <a name="ind-practice"></a>
-## Independent Practice: Topic (40 minutes)
-1. Write a function that takes a number and generates a list of the first 50 multiples of that number.
-2. Compute the sum of the first 10,000 odd numbers.
+## Lab
+Pick two (or more) of the assignments in the starter code folder. Slack your solutions to us by 9 am Monday. 
 
 
 <a name="conclusion"></a>
