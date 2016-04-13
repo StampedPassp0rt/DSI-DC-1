@@ -1,8 +1,9 @@
 # Homework
 
-Due
-4/14 @ 9am Lab 3.4 (Independent Practice and Programming Fundamentals problems aren't due, but you should work on them if you                     finish Lab 3.4)
-4/18 @ 9am Project 1
+What's Due When 
+- 4/14 @ 9am Lab 3.4 (Independent Practice and Programming Fundamentals problems aren't due, but you should work on them if                        you finish Lab 3.4)
+- 4/18 @ 9am Project 1
+
 
 ## Things to note
 
