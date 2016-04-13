@@ -1,5 +1,9 @@
 # Homework
 
+Due
+4/14 @ 9am Lab 3.4 (Independent Practice and Programming Fundamentals problems aren't due, but you should work on them if you                     finish Lab 3.4)
+4/18 @ 9am Project 1
+
 ## Things to note
 
 - There will be roughly 2 hours of homework per night. Homework will take more time for some, and less time for others. It is up to you how you want to partition your time for a given exercise.
