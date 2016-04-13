@@ -21,14 +21,14 @@ Let's go!
 
 #### Requirements
 
-- Create a numpy array
-- Find the mean of the array
-- Find the sum of the array
-- Find the non-zero count of the array
-- Find the standard deviation of the array
+- Create a list
+- Find the mean of the list
+- Find the median of the list
+- Find the variance of the list
+- Find the standard deviation of the list
 
 
 **Bonus:**
-- Replace a value in the array
+- Replace a value in the list
 
 
