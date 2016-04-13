@@ -16,7 +16,6 @@ creator:
 In the last lesson we were introduced to NumPy. Now, we're not going to waste 
 any time, we're going to put it to practical use. Summary statistics can tell us some general 
 things about a dataset. For instance, remember to think about what Measures of Central Tendency can tell us. 
-Although summary stats give us a general overall view of a data set, don't forget Anscomb's Quartet. 
 Let's go!
 
 #### Requirements
