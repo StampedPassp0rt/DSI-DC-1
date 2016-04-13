@@ -29,7 +29,7 @@ Over the last few days we've gone over quite a bit.
 
 <a name="ind-practice"></a>
 ## Lab
-Pick two (or more) of the assignments in the starter code folder. Slack your solutions to us by 9 am Monday. 
+Pick two (or more) of the assignments in the starter code folder. Slack your solutions to us by 9 am the next day.
 
 
 <a name="conclusion"></a>
