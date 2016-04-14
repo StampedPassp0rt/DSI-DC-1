@@ -33,7 +33,7 @@ accomplish.
 - Transpose the array
 
 **Bonus:**
-- Different ways to index the array
+- Different ways to index the array, you only have to worry about basic indexing. 
 
 
 #### Starter code
